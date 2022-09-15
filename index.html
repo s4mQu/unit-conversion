@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weight Converter 2022 SamQ</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <section class="input-section">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input class="in-box" id="in-box" type="text" />
+        <button id="conv-btn" class="conv-btn">Convert</button>
+      </section>
+      <!-- Second Section Below -->
+      <section class="calc-section">
+        <div class="calc-box">
+          <h2>Length (Meter/Feet)</h2>
+          <p class="meter-feet" id="meter-feet">
+            0 meters = 0 feet | 0 feet = 0 meters
+          </p>
+        </div>
+        <div class="calc-box">
+          <h2>Volume (Liters/Gallons)</h2>
+          <p class="liter-gallon" id="liter-gallon">
+            0 liters = 0 gallons | 0 gallons = 0 liters
+          </p>
+        </div>
+        <div class="calc-box">
+          <h2>Mass (Kilograms/Pounds)</h2>
+          <p class="kilo-pounds" id="kilo-pounds">
+            0 kilos = 0 pounds | 0 pounds = 0 kilos
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
